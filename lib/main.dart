@@ -12,6 +12,7 @@ import 'package:flutter_animations/implicit-animations/CustomAnimatedScale.dart'
 import 'package:flutter_animations/implicit-animations/CustomAnimatedSize.dart';
 import 'package:flutter_animations/implicit-animations/CustomAnimatedSwitcher.dart';
 import 'package:flutter_animations/implicit-animations/CustomAnimatedTheme.dart';
+import 'package:flutter_animations/implicit-animations/CustomAnimatedSlide.dart';
 import 'package:flutter_animations/implicit-animations/CustomTweenAnimationBuilder.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CustomAnimatedPositionedDirectional(),
+      home: CustomAnimatedSlide(),
     );
   }
 }
